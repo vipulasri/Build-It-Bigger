@@ -36,7 +36,7 @@ dependencies {
     compile project(":jokesviewer")
     compile 'com.android.support:appcompat-v7:24.1.0'
     compile 'com.android.support:design:24.1.0'
-    compile 'com.google.android.gms:play-services-ads:9.2.1'
+    freeCompile 'com.google.android.gms:play-services-ads:9.2.1'
     compile project(path: ':backend', configuration: 'android-endpoints')
     compile 'com.google.appengine:appengine-api-1.0-sdk:1.9.28'
 
